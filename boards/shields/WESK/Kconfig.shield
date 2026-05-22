@@ -1,0 +1,5 @@
+config SHIELD_WESK_LEFT
+    def_bool $(shields_list_contains,wesk_left)
+
+config SHIELD_WESK_RIGHT
+    def_bool $(shields_list_contains,wesk_right)
